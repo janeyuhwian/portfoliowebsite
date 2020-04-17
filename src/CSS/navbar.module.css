@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 .logo-icon {
-  color: var(--primaryColor);
+  color: var(--mainBlack);
   font-size: 1.5rem;
 }
 
@@ -32,13 +32,13 @@
   padding: 1rem 1.25rem;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--mainBlack);
+  color: var(--primaryColor);
   transition: var(--mainTransition);
   font-weight: bold;
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: var(--mainBlack);
 }
 .nav-social-links {
   display: none;

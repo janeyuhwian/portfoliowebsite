@@ -1,10 +1,19 @@
 import React from 'react'
+import styles from '../CSS/footer.module.css'
+import socialIcons from '../constants/social-icons'
 
 const Footer = () => {
     return (
-        <div>
-           <h1>I am footer: Software Engineer</h1> 
-        </div>
+        <footer className={styles.footer}>
+            <div className={styles.icons}>
+                {socialIcons.map((item, index) => {
+                    return <a key={index} href={item.url} target="_blank" rel="noopener noreferrer">{item.icon}</a>
+                })}
+            </div>
+            <div className={styles.copyright}>
+                &copy;JANE AN,{new Date().getFullYear()}
+            </div>
+        </footer>
     )
 }
 

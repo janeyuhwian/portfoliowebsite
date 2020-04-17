@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
 
 :root {
-  --primaryColor: #4D6D9A;
-  --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #5F6366;    
-  --mainGrey: #ececec;
+  --primaryColor:  #fff; 
+  --mainWhite: #4D6D9A;
+  --offWhite: #f44422; 
+  --mainBlack:  #4D6D9A;  
+  --mainGrey: #F9F9F9;
   --darkGrey: #afafaf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
@@ -20,7 +20,7 @@
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
   line-height: 1.4;
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
@@ -44,7 +44,7 @@ a {
 }
 .defaultHero {
   min-height: calc(100vh - 62px);
-  background: linear-gradient(rgba(63, 208, 212, 0.7), rgba(0, 0, 0, 0.7)),
+  background: 
     url("../images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
   justify-content: center;
