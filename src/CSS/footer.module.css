@@ -26,7 +26,7 @@
   transition: var(--mainTransition);
 }
 .icons a:hover {
-  color: var(--mainWhite);
+  color: #413F3D;
 }
 .copyright {
   text-transform: capitalize;
