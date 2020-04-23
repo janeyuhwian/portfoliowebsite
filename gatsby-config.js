@@ -9,8 +9,14 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
-  plugins: [ 
-    
+  plugins: [  
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
     {
       resolve: `gatsby-source-contentful`,
       options: {
@@ -21,5 +27,8 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`, 
     `gatsby-plugin-transition-link`, 
+    `gatsby-plugin-playground`,
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`
   ]
 }
