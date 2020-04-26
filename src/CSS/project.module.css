@@ -38,10 +38,11 @@
 }
 
 .linktwo {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 80%);
   opacity: 0;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
@@ -49,12 +50,33 @@
   padding: 0.5rem 0.7rem;
   display: inline-block;
   transition: var(--mainTransition);
-  cursor: pointer;
 }
 
 .linktwo:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
+  opacity: 1.0;
+}
+
+.linkthree {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  opacity: 0;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainWhite);
+  border: 2px solid var(--mainWhite);
+  padding: 0.5rem 0.7rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+}
+
+.linkthree:hover {
+  background: var(--mainWhite);
+  color: var(--primaryColor);
+  opacity: 1.0;
 }
 
 .img-container:hover .link {
@@ -63,22 +85,29 @@
 
 .footer {
   padding: 1rem;
-  text-align: left;
+  text-align: center;
+  background: #afafaf;
+  color: black
+
 }
+
 .footer h3 {
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 .info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5rem;
+  color: black;
 }
 .info h6,
 .info h4 {
   margin-bottom: 0;
+  color: black;
 }
 .developer {
   color: var(--primaryColor);

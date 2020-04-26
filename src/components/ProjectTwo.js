@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "gatsby-image"
 import styles from '../CSS/project.module.css'
-import {Link} from 'gatsby'
 
 const ProjectTwo  = ({ project }) => {
   const { title, technologies, role, image, firstUrl, secondUrl } = project
@@ -12,7 +11,8 @@ const ProjectTwo  = ({ project }) => {
     <article className={styles.box}>
       <div className={styles.imgContainer}>
         <Image fluid={mainImage} className={styles.img} alt="single tour" />
-        <a href={secondUrl} className={styles.link} target="_blank" rel="noopener noreferrer">Demo</a>
+        <a href={firstUrl} className={styles.linktwo} target="_blank" rel="noopener noreferrer">Github</a>
+        <a href={secondUrl} className={styles.linkthree} target="_blank" rel="noopener noreferrer">Demo</a>
       </div>
       <div className={styles.footer}>
         <h3>{title}</h3>
@@ -28,5 +28,6 @@ const ProjectTwo  = ({ project }) => {
     </article>
   )
 }
+
 
 export default ProjectTwo 
