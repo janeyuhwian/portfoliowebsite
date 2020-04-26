@@ -1,6 +1,6 @@
 
 import React from "react"
-import { FaLinkedin, FaGithubSquare, FaMedium, FaEnvelopeSquare } from "react-icons/fa"
+import { FaLinkedin, FaGithubSquare, FaMedium} from "react-icons/fa"
 
 export default [
     {
@@ -14,9 +14,5 @@ export default [
     {
         icon:<FaMedium />,
         url:"https://medium.com/@janeyuhwian",
-    },
-    {
-        icon:<FaEnvelopeSquare/>,
-        url:"janeyuhwian@gmail.com",
     },
 ]
