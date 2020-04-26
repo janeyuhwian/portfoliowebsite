@@ -7,8 +7,8 @@ const Banner = ({title,info,children}) => {
     return (
         <Typist>
         <div className={styles.banner}>
-            <h2>{title}</h2>
-             <h3>{info}</h3>
+            <h1>{title}</h1>
+             <h2>{info}</h2>
              {children}
         </div>
         </Typist>

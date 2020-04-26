@@ -32,7 +32,7 @@ export default class about extends Component {
 
 const style= {
     color: {
-        color: 'white',
+        color: 'black',
         textDecorationLine: 'underline'
     }
 }

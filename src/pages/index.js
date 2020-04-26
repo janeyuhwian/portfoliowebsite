@@ -7,7 +7,7 @@ import {Link} from 'gatsby'
 export default () => (
     <Layout>
        <SimpleHero>
-           <Banner title="Hello, I'm Jane!" info="A software engineer and a lifelong learner">
+           <Banner title="Hello, I'm Jane" info="A software engineer and a lifelong learner">
             <Link to="/about" className="btn-white"> About me</Link>
            </Banner>
 

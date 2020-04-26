@@ -26,7 +26,7 @@ label {
   border-radius: 0.25rem;
 }
 .submit {
-  background-color: var(--primaryColor);
+  background-color: #fff;
   border-color: var(--primaryColor);
   text-transform: uppercase;
   color: var(--mainBlack);
