@@ -4,6 +4,7 @@ import {FaAlignJustify} from 'react-icons/fa'
 import socialIcons from '../constants/social-icons'
 import links from '../constants/links'
 import {Link} from 'gatsby'
+import logo from '../images/logo.png'
 
 const Navbar = () => {
     const [isOpen, setNav] = (useState(false))
@@ -15,6 +16,7 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.navCenter}>
                 <div className={styles.navHeader}>
+                    <img src={logo} alt="janean logo" />
                     <button type="button" className={styles.logoBtn} onClick={toggleNav}>
                         <FaAlignJustify className={styles.logoIcon} />
                         </button>

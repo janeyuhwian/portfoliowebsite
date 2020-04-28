@@ -23,7 +23,7 @@ export default class about extends Component {
                         <p>While I worked as an International Educator, I was facinated by the tech field and saw the power of technology, which allowed us to connect and work with people around the country. So I taught myself Javascipt and completed one of the most well-known Software Engineer program for women at <a href="https://www.gracehopper.com/" target="_blank" rel="noopener noreferrer" style={style.color}>Grace Hopper Program.</a></p>
                         <p>Besides my passion for coding, I love reading, traveling, and learning new languages! I commit to being a lifelong learner and I am excited to begin my new journey as a software engineer.</p>
                         <a href="https://drive.google.com/open?id=1nVMI8aMvyOdT1fR6CuTBcWkA-r6aZrql" target="_blank" rel="noopener noreferrer">
-                        <button type="button" className="btn-primary">Click me</button>
+                        <button type="button" className="btn-primary">Resume</button>
                         </a>
                     </article>
             </div>
