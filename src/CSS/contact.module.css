@@ -26,11 +26,11 @@ label {
   border-radius: 0.25rem;
 }
 .submit {
-  background-color: #fff;
-  border-color: var(--primaryColor);
+  background-color: #141414;
+  border-color: #fff;
   text-transform: uppercase;
-  color: var(--mainBlack);
-  transition: var(--mainTransition);
+  color: #fff;
+  transition: #fff;
   cursor: pointer;
 }
 .submit:hover {
