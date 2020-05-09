@@ -14,7 +14,6 @@
   cursor: pointer;
 }
 .logo-icon {
-  color: #0000;
   font-size: 1.5rem;
 }
 
@@ -52,6 +51,7 @@
 
 @media screen and (min-width: 992px) {
   .logo-btn {
+    color: #141414;
     display: none;
   }
   .nav-center {
