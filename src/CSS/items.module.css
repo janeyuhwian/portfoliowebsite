@@ -1,6 +1,7 @@
 .tours {
   padding: 4rem 0;
   text-align: center;
+  vertical-align: baseline;
 }
 .center {
   width: 80vw;

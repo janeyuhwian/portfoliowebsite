@@ -1,9 +1,36 @@
-.box {
+
+.img{
+  float: right;
+  margin: 0 0 2em 2em;
+  top: 0.25em;
+  width: 100%;
+}
+
+
+.text{
+  margin:0px;
+  float: left;
+}
+
+.icon{
+  position: relative;
+  color: black;
+}
+
+.title{
+  font-weight: bold;
+}
+
+/* .box {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
 .box:hover {
   box-shadow: var(--darkShadow);
+}
+
+.alignleft {
+  float: left;
 }
 
 .img-container {
@@ -117,4 +144,4 @@
 .details {
   color: #fff;
   text-align: left;
-}
+} */
